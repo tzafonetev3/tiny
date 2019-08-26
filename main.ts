@@ -18,7 +18,7 @@ namespace Tinybit {
 
         //% blockId="OFF" block="OFF"
         OFF = 0,
-        //% blockId="Red" block="Red"
+        //% blockId="Red" block="אדום"
         Red,
         //% blockId="Green" block="Green"
         Green,
