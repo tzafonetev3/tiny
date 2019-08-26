@@ -16,21 +16,21 @@ namespace Tinybit {
 
     export enum enColor {
 
-        //% blockId="OFF" block="OFF"
+        //% blockId="OFF" block="כיבוי"
         OFF = 0,
         //% blockId="Red" block="אדום"
         Red,
-        //% blockId="Green" block="Green"
+        //% blockId="Green" block="ירוק"
         Green,
-        //% blockId="Blue" block="Blue"
+        //% blockId="Blue" block="כחול"
         Blue,
-        //% blockId="White" block="White"
+        //% blockId="White" block="לבן"
         White,
-        //% blockId="Cyan" block="Cyan"
+        //% blockId="Cyan" block="ציאן"
         Cyan,
-        //% blockId="Pinkish" block="Pinkish"
+        //% blockId="Pinkish" block="ורדרד"
         Pinkish,
-        //% blockId="Yellow" block="Yellow"
+        //% blockId="Yellow" block="צהוב"
         Yellow,
 
     }
