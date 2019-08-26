@@ -67,9 +67,9 @@ namespace Tinybit {
     }
 
     export enum enLineState {
-        //% blockId="White" block="White Line"
+        //% blockId="White" block="קו לבן"
         White = 0,
-        //% blockId="Black" block="Black Line"
+        //% blockId="Black" block="קו שחור"
         Black = 1
     }
     
@@ -80,9 +80,9 @@ namespace Tinybit {
         NoGet = 1
     }    
     export enum enAvoidState {
-        //% blockId="OBSTACLE" block="Obstacle"
+        //% blockId="OBSTACLE" block="מכשול"
         OBSTACLE = 1,
-        //% blockId="NOOBSTACLE" block="No Obstacle"
+        //% blockId="NOOBSTACLE" block="אין מכשול"
         NOOBSTACLE = 0
 
     }
@@ -90,17 +90,17 @@ namespace Tinybit {
     export enum CarState {
         //% blockId="Car_Run" block="Run"
         Car_Run = 1,
-        //% blockId="Car_Back" block="Back"
+        //% blockId="Car_Back" block="אחורה"
         Car_Back = 2,
-        //% blockId="Car_Left" block="Left"
+        //% blockId="Car_Left" block="שמאלה"
         Car_Left = 3,
-        //% blockId="Car_Right" block="Right"
+        //% blockId="Car_Right" block="ימינה"
         Car_Right = 4,
-        //% blockId="Car_Stop" block="Stop"
+        //% blockId="Car_Stop" block="עצור"
         Car_Stop = 5,
-        //% blockId="Car_SpinLeft" block="SpinLeft"
+        //% blockId="Car_SpinLeft" block="סיבוב שמאלה"
         Car_SpinLeft = 6,
-        //% blockId="Car_SpinRight" block="SpinRight"
+        //% blockId="Car_SpinRight" block="סיבוב ימינה"
         Car_SpinRight = 7
     }
 
