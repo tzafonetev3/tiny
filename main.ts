@@ -238,7 +238,7 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="Music_Car|%index"
+    //% blockId=Tinybit_Music_Car block="רכב מנגן|%index"
     //% weight=95
     //% blockGap=10
     //% color="#006400"
@@ -270,7 +270,7 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
+    //% blockId=Tinybit_CarCtrl block="הפעלת רכב|%index"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
@@ -287,7 +287,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block="CarCtrlSpeed|%index|speed %speed"
+    //% blockId=Tinybit_CarCtrlSpeed block="הפעלת רכב במהירות|%index|speed %speed"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
@@ -305,7 +305,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed2 block="CarCtrlSpeed2|%index|speed1 %speed1|speed2 %speed2"
+    //% blockId=Tinybit_CarCtrlSpeed2 block="הפעלת גלגלי הרובוט במהירות שונות |%index|speed1 %speed1|speed2 %speed2"
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
@@ -325,7 +325,7 @@ namespace Tinybit {
         
    
     
-    //% blockId=Tinybit_Line_Sensor block="Line_Sensor|direct %direct|value %value"
+    //% blockId=Tinybit_Line_Sensor block="חיישן_קו|direct %direct|value %value"
     //% weight=89
     //% blockGap=10
     //% color="#006400"
@@ -360,7 +360,7 @@ namespace Tinybit {
 
     }
 
-    //% blockId=Tinybit_Voice_Sensor block="Voice Sensor return"
+    //% blockId=Tinybit_Voice_Sensor block="ערך חיישן קול"
     //% weight=88
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
@@ -373,7 +373,7 @@ namespace Tinybit {
 
     }
         
-    //% blockId=Tinybit_Ultrasonic_Car block="ultrasonic return distance(cm)"
+    //% blockId=Tinybit_Ultrasonic_Car block="ערך חיישן אולטראסוניק בסנטימטר"
     //% color="#006400"
     //% weight=87
     //% blockGap=10
