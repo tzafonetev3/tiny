@@ -270,7 +270,7 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="הפעלת רכב|%index"
+    //% blockId=Tinybit_CarCtrl block="|%index| הפעלת רכב"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
