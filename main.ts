@@ -287,7 +287,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block=" במהירות |%index| %speed  הפעלת רובוט"
+    //% blockId=Tinybit_CarCtrlSpeed block=" במהירות  %speed  הפעלת רובוט |%index|"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
