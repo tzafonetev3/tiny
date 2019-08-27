@@ -26,7 +26,7 @@ namespace Tinybit {
         Blue,
         //% blockId="White" block="לבן"
         White,
-        //% blockId="Cyan" block="ציאן"
+        //% blockId="Cyan" block="ציאן"רכב
         Cyan,
         //% blockId="Pinkish" block="ורדרד"
         Pinkish,
@@ -238,7 +238,7 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="רכב מנגן|%index"
+    //% blockId=Tinybit_Music_Car block="|%index|  רכב מנגן"
     //% weight=95
     //% blockGap=10
     //% color="#006400"
