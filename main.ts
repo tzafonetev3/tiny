@@ -287,11 +287,11 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block=" במהירות  %speed  הפעלת רובוט |%index|"
+    //% blockId=Tinybit_CarCtrlSpeed block="%speed במהירות   הפעלת רובוט |%index|"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
-    //% color="#9acd32"
+    //% color="#d6c4dd"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
