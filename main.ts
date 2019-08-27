@@ -238,7 +238,7 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="|%index|  רכב מנגן"
+    //% blockId=Tinybit_Music_Car block="|%index|  רובוט מנגן"
     //% weight=95
     //% blockGap=10
     //% color="#02a7b0"
@@ -270,7 +270,7 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="|%index| הפעלת רכב"
+    //% blockId=Tinybit_CarCtrl block="|%index| הפעלת רובוט"
     //% weight=93
     //% blockGap=10
     //% color="#02a7b0"
@@ -287,11 +287,11 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block=" %speed במהירות |%index|הפעלת הרובוט"
+    //% blockId=Tinybit_CarCtrlSpeed block="הפעלת הרובוט |%index| במהירות %speed "
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
-    //% color="#02a7b0"
+    //% color="#FF19D1"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
