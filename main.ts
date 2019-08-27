@@ -287,7 +287,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block=" הפעלת הרובוט %speed  |%index| במהירות"
+    //% blockId=Tinybit_CarCtrlSpeed block=" במהירות %speed  |%index| הפעלת רובוט"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
@@ -325,8 +325,7 @@ namespace Tinybit {
         
    
     
-    //% blockId=Tinybit_Line_Sensor block="חיישן_קו|direct %direct|value %value"
-    //% weight=89
+    //% blockId=Tinybit_Line_Sensor block="חיישן קו|direct %direct|ערך %value"    //% weight=89
     //% blockGap=10
     //% color="#02a7b0"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
