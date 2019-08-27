@@ -88,7 +88,7 @@ namespace Tinybit {
     }
     
     export enum CarState {
-        //% blockId="Car_Run" block="Run"
+        //% blockId="Car_Run" block="הרץ"
         Car_Run = 1,
         //% blockId="Car_Back" block="אחורה"
         Car_Back = 2,
