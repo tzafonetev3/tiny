@@ -273,7 +273,7 @@ namespace Tinybit {
     //% blockId=Tinybit_CarCtrl block="|%index| הפעלת רובוט"
     //% weight=93
     //% blockGap=10
-    //% color="#666666"
+    //% color="#d7761b"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrl(index: CarState): void {
         switch (index) {
