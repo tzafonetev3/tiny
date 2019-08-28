@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
 load dependency
@@ -287,7 +287,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block="|%index| %speed הפעלת רובוט במהירות"
+    //% blockId=Tinybit_CarCtrlSpeed block="במהירות %speed    הפעלת רובוט |%index|"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
@@ -325,10 +325,9 @@ namespace Tinybit {
         
    
     
-    //% blockId=Tinybit_Line_Sensor block=" |direct %direct| מעל קו %value ערך חיישן קו" 
-    //% weight=89
+    //% blockId=Tinybit_Line_Sensor block="חיישן קו|direct %direct|ערך %value"    //% weight=89
     //% blockGap=10
-    //% color="#02a7b0"
+    //% color="#1e4b7a"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Line_Sensor(direct: enPos, value: enLineState): boolean {
 
