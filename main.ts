@@ -323,9 +323,9 @@ namespace Tinybit {
         }
     }    
         
-   
+
     
-    //% blockId=Tinybit_Line_Sensor block="חיישן קו|direct %direct|ערך %value"    //% weight=89
+    //% blockId=Tinybit_Line_Sensor block=" %value מעל קו |%direct|ערך חיישן קו "    //% weight=89
     //% blockGap=10
     //% color="#1e4b7a"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
