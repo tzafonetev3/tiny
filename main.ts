@@ -327,7 +327,7 @@ namespace Tinybit {
     
     //% blockId=Tinybit_Line_Sensor block=" |%direct| מעל קו %value ערך חיישן קו "    //% weight=89
     //% blockGap=10
-    //% color="#1e4b7a"
+    //% color="#02a7b0"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Line_Sensor(direct: enPos, value: enLineState): boolean {
 
