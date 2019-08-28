@@ -1,4 +1,4 @@
-﻿/*
+/*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
 load dependency
@@ -273,7 +273,7 @@ namespace Tinybit {
     //% blockId=Tinybit_CarCtrl block="|%index| הפעלת רובוט"
     //% weight=93
     //% blockGap=10
-    //% color="#d7761b"
+    //% color="#666666"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrl(index: CarState): void {
         switch (index) {
@@ -287,11 +287,11 @@ namespace Tinybit {
         }
     }
     
-   //% blockId=Tinybit_CarCtrlSpeed block="|%index| %speed הפעלת רובוט במהירות"
+    //% blockId=Tinybit_CarCtrlSpeed block="|%index| %speed הפעלת רובוט במהירות"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
-    //% color="#d7761b"
+    //% color="#8c080a"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
@@ -323,9 +323,9 @@ namespace Tinybit {
         }
     }    
         
-
+   
     
-    //% blockId=Tinybit_Line_Sensor block=" |direct %direct| מעל קו %value ערך חיישן קו "  
+    //% blockId=Tinybit_Line_Sensor block=" |direct %direct| מעל קו %value ערך חיישן קו" 
     //% weight=89
     //% blockGap=10
     //% color="#02a7b0"
